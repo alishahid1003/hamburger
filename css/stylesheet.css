@@ -1,0 +1,41 @@
+header {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    border-bottom: solid #fdf731 5px;
+    height: 80px;
+}
+header h1 a {
+    color: #fdf731;
+    font-size: 30px;
+    font-family: "Merriweather", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+header ul {
+    margin-top: 5px;
+}
+header ul li.allUpperCaseNav a {
+    font-family: "Oswald", sans-serif;
+    font-style: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+header ul li.capitalizedNav a {
+    font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+}
+header ul li:hover {
+    background: #fff; 
+}
